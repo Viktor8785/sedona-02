@@ -1,0 +1,107 @@
+@font-face {
+  font-family: "PT Sans", sans-serif;
+  src: url("../fonts/ptsans-400.woff2") format("woff2");
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "PT Sans", sans-serif;
+  src: url("../fonts/ptsans-700.woff2") format("woff2");
+  font-weight: 700;
+  font-display: swap;
+  font-style: normal;
+}
+
+:root {
+  --basic-black: #000000;
+  --basic-grey: #333333;
+  --basic-white: #ffffff;
+  --basik-blue: #81B3D2;
+  --button-brown: #766357;
+  --button-brown-focus: #604E43;
+  --button-brown-active: #503E33;
+  --button-blue-active: #5496BD;
+  --button-blue-focus: #669EC0;
+  --checkbox-disable: #6A6A6A;
+  --text-reiting: #666666;
+  --basic-background: #F2F2F2;
+  --basic-background-focus: #EBEBEB;
+}
+
+.body-wrapper {
+  min-width: 1200px;
+  margin: 0;
+  padding: 0;
+  font-family: 'PT Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  text-transform: uppercase;
+  color: var(--basic-grey);
+  background-color: var(--basic-background);
+  color: #000000;
+}
+
+.body-wrapper a {
+  text-decoration: none;
+}
+
+.body-wrapper img {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.page-container {
+  width: 1200px;
+  margin-left: 0;
+  background-color: var(--basic-white);
+  box-shadow: 0px 5px 15px rgba(0, 1, 1, 0.2);
+  min-height: 100%;
+}
+
+.main-navigation {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 26px;
+  background-color: var(--basic-white);
+}
+
+.navigation-list {
+  list-style: none;
+}
+
+.navigation-list a {
+  color: var(--basic-black);
+}
+
+.navigation-list a:hover {
+  color: var(--basik-blue);
+}
+
+.navigation-list a:focus {
+  color: var(--basic-background-black);
+  opacity: 0.3;
+}
+
+.main-welcome-wrapper {
+  width: 1200px;
+  height: 773px;
+  background-color: var(--basic-grey);
+  background-image: url("../images/welcome-background.jpg") ;
+  text-align: center;
+}
+
+.main-intro {
+  width: 1200px;
+  height: 216px;
+  background-color: var(--basic-white);
+  text-align: center;
+}
+
+.main-intro p {
+  color: var(--basic-grey);
+}

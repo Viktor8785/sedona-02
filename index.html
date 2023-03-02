@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML Academy: Седона</title>
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body class="body-wrapper">
+    <div class="page-container">
+      <header>
+        <nav class="main-navigation">
+          <a>
+            <img src="images/logo.png" width="138" height="71" alt="Лого Sedona">
+          </a>
+          <div class="main-navigation-wrapper">
+            <ul class="navigation-list">
+              <li class="navigation-item">
+                <a href="pages/blank.html">Информация</a>
+              </li>
+              <li class="navigation-item">
+                <a href="pages/blank.html">Фото и видео</a>
+              </li>
+              <li class="navigation-item">
+                <a href="pages/blank.html">Карта штата</a>
+              </li>
+              <li class="navigation-item">
+                <a href="pages/hotels.html">Гостиницы</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+      <main>
+        <header>
+            <div class="main-welcome-wrapper">
+              <div class="main-welcome-welcome">
+                <a>
+                  <img src="images/welcome.png" width="188" height="45" alt="Welcome">
+                </a>
+              </div>
+              <div class="main-welcome-gorgeous">
+                <a><img src="images/to-the-gorgeous.png" width="256" height="29" alt="To the gorgeous"></a>
+              </div>
+              <div class="main-welcome-sedona">
+                <a><img src="images/sedona.png" width="256" height="29" alt="Sedona"></a>
+              </div>
+              <div class="main-welcome-polygon">
+                <a><img src="images/polygon.png" width="1200" height="57" alt=""></a>
+              </div>
+            </div>
+            <div class="main-intro">
+              <h1>Добро пожаловать в Седону</h1>
+              <h2>Седона - небольшой городок в Аризоне,<br>заслуживающий большего!</h2>
+              <p>Рассмотрим 5 причин, по которым Седона круче, чем Гранд-Каньон</p>
+            </div>
+        </header>
+        <section>
+          <div>
+            <h2>Настоящий городок</h2>
+            <p>-№1-</p>
+            <p>Седона - не аттракцион для туристов, там<br>течет своя жизнь</p>
+          </div>
+          <a><img src="images/vid-gorodka.jpg" width="800" height="256" alt="Вид на коттеджи"></a>
+        </section>
+        <section>
+          <ul>
+            <li>
+              <a><img src="images/dom-icon.svg" width="75" height="72" alt="Дом"></a>
+              <h2>жилье</h2>
+              <p>рекомендуем пожить в настоящем<br>мотеле, все как в кино!</p>
+            </li>
+            <li>
+              <a><img src="images/eda-icon.svg" width="75" height="70" alt="Бургер"></a>
+              <h2>еда</h2>
+              <p>всегда заказывайте фирменный бургер,<br>вы не разочаруетесь!</p>
+            </li>
+            <li>
+              <a><img src="images/suvenir-icon.svg" width="64" height="77" alt="Сувениры"></a>
+              <h2>сувениры</h2>
+              <p>не только китайского, но и местного<br>производства!</p>
+            </li>
+          </ul>
+        </section>
+        <section>
+          <a><img src="images/kanyon.jpg" width="800" height="400" alt="Мост дьявола"></a>
+          <div>
+            <h2>Там есть<br>мост дьявола</h2>
+            <p>-№2-</p>
+            <p>да, по нему можно пройти! если, конечно<br>вы осмелитесь</p>
+          </div>
+        </section>
+        <section>
+          <ul>
+            <li>
+              <h2>небольшая<br>площадь</h2>
+              <p>-№3-</p>
+              <p>все достопримечательности<br>находятся очень близко</p>
+            </li>
+            <li>
+              <h2>красивая<br>дорога</h2>
+              <p>-№4-</p>
+              <p>ехать в седону из лас-вегаса совсем<br>не скучно!</p>
+            </li>
+            <li>
+              <h2>мало<br>туристов</h2>
+              <p>-№5-</p>
+              <p>большинство едет в гранд-каньон<br>и толпится там</p>
+            </li>
+          </ul>
+        </section>
+        <section>
+          <h2>Заинтересовались?</h2>
+          <p>укажите предполагаемые даты поездки,
+            <br>и мы покажем вам лучшие предложения гостиниц в седоне</p>
+        </section>
+        <section>
+          <h2>поиск гостиницы в седоне</h2>
+          <form method="post" action="index.html">
+            <p>
+              <label for="search-arrival-date">дата заезда:</label>
+              <input id="search-arrival-date" type="date" name="arrival-date">
+            </p>
+            <p>
+              <label for="search-departure-date">дата выезда:</label>
+              <input id="search-departure-date" type="date" name="departure-date">
+            </p>
+            <p>
+              <label for="search-adult">взрослые:</label>
+              <input id="search-adult" type="number" name="adult"
+              placeholder="2">
+            </p>
+            <p>
+              <label for="search-child">дата выезда:</label>
+              <input id="search-child" type="number" name="child"
+              placeholder="0">
+            </p>
+            <button type="submit">найти</button>
+          </form>
+        </section>
+        <section>
+          <h2>Карта</h2>
+          <a><img src="images/map-2.jpg" width="1200" height="477" alt="Карта"></a>
+        </section>
+      </main>
+      <footer>
+        <section>
+          <h2>Контакты</h2>
+          <p>#visitSEDONA<br>ТЕЛ: +7(495) 666-01-66</p>
+        </section>
+        <section>
+          <h2>Соцсети</h2>
+          <a><img src="images/twitter-icon.svg" width="17" height="17" alt="Twitter"></a>
+          <a><img src="images/fb-icon.svg" width="12" height="22" alt="Facebook"></a>
+          <a><img src="images/youtube.svg" width="20" height="16" alt="YouTube"></a>
+        </section>
+        <section>
+          <h2>Разработчик</h2>
+          <p>Website by</p>
+          <a><img src="images/logo-htmlacademy.png" width="115" height="41" alt="html-academy"></a>
+        </section>
+      </footer>
+    </div>
+  </body>
+</html>
